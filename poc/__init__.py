@@ -7,4 +7,4 @@ def create_app():
     return app
 
 
-apiWrapper = BlueprintWrapper('api', __name__, '/api')
+apiWrapper = BlueprintWrapper('api', __name__, '/api/v1')
