@@ -21,5 +21,5 @@ Every valid call to the API returns JSON, with properties,
     * `title` is the title/name of the document.
 
 ### Example
-```http://castle-black.com/search?query=artificial+neural+networks```
+``http://castle-black.com/search?query=artificial+neural+networks``
 
