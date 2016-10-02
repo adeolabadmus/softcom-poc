@@ -19,4 +19,4 @@ def search():
     if not query:
         raise BadRequest('query parameter not set')
     results = get_results(query)
-    return jsonify(results), 200
+    return jsonify(results), 200, {'Cache-Control': 'max-age=86400'}
