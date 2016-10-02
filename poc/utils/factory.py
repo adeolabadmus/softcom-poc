@@ -14,5 +14,4 @@ def create_app(package_name):
 
     initialize_extensions(app)
     register_blueprints(app, package_name)
-    # register error handlers
     return app

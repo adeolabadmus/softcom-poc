@@ -1,5 +1,6 @@
 from flask import jsonify
 
+
 class BadRequest(Exception):
     def __init__(self, message=None):
         Exception.__init__(self)

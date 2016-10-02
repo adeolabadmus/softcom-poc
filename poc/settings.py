@@ -4,6 +4,7 @@ import os
 class Config(object):
     SECRET_KEY = os.environ.get('FLASK_POC_SECRET_KEY')
     MAX_CONTENT_LENGTH = 5 * 1024 * 1024
+    JSONIFY_PRETTYPRINT_REGULAR = False
 
 
 class Development(Config):
