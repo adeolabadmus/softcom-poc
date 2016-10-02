@@ -8,7 +8,7 @@ A simple API that aggregates search results from the following APIs.
 ## API Usage
 Make a call to the `/search` endpoint,
 
-``http://castle-black.com/search``
+``https://castle-black.herokuapp.com/api/v1/search``
 
 ### Request Parameters
 * `query` - term to search for
@@ -21,5 +21,5 @@ Every valid call to the API returns JSON, with properties,
     * `title` is the title/name of the document.
 
 ### Example
-``http://castle-black.com/search?query=artificial+neural+networks``
+``https://castle-black.herokuapp.com/api/v1/search/?query=artificial+neural+networks``
 
